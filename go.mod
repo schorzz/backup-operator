@@ -4,8 +4,8 @@ go 1.17
 
 require (
 	github.com/aws/aws-sdk-go v1.43.5
-	github.com/go-logr/logr v0.1.0
-	github.com/go-logr/zapr v0.1.0
+	github.com/go-logr/logr v1.2.2
+	github.com/go-logr/zapr v1.2.3
 	github.com/hashicorp/consul/api v1.11.0
 	github.com/mongodb/mongo-tools v0.0.0-20220222145442-9a0003067b69
 	github.com/onsi/ginkgo v1.16.4
@@ -14,7 +14,7 @@ require (
 	github.com/prometheus/client_golang v1.4.0
 	github.com/spf13/cobra v1.3.0
 	go.mongodb.org/mongo-driver v1.8.3
-	go.uber.org/zap v1.17.0
+	go.uber.org/zap v1.19.0
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	k8s.io/api v0.17.2
 	k8s.io/apimachinery v0.17.2
